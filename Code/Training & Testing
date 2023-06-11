@@ -2,7 +2,7 @@
 
 
 torch.manual_seed(99)
-epochs = 210                                        # no of loop for the data 
+epochs = 210                                        # No of loop for the data 
 loss_v = []
 testl_v = []
 epoch_c = []
@@ -10,25 +10,25 @@ epoch_c = []
 
 # Training the model
 for epoch in range(epochs):
-  model_0.train()                                   # puts the model in training mode
+  model_0.train()                                   # Puts the model in training mode
 
-  y_prediction = model_0(X_train)                   # we have inputed the trainning data to our Fw pass predicting 'y'
+  y_prediction = model_0(X_train)                   # We have inputed the trainning data to our Fw pass predicting 'y'
 
-  loss = lossfn(y_prediction, y_train)              # calculating loss brtween predicted - actual 
+  loss = lossfn(y_prediction, y_train)              # Calculating loss brtween predicted - actual 
   
-  optimizer.zero_grad()                             #Clears the gradient of parameters
+  optimizer.zero_grad()                             # Clears the gradient of parameters
 
-  loss.backward()                                   # perfrom Backpropogation based on loss observed
+  loss.backward()                                   # Perfrom Backpropogation based on loss observed
 
-  optimizer.step()                                  # update parameters on computed gradients
+  optimizer.step()                                  # Update parameters on computed gradients
 
 
 # Testing the Model
-  model_0.eval()                                    # puts the model in evaluation i.e. testing/validation set
+  model_0.eval()                                    # Puts the model in evaluation i.e. testing/validation set
   with torch.inference_mode():
-     ytest_preds = model_0(X_test)                  # inputed the testing data to our Fw pass
+     ytest_preds = model_0(X_test)                  # Inputed the testing data to our Fw pass
 
-     test_loss = lossfn(ytest_preds, y_test)        # calculating loss
+     test_loss = lossfn(ytest_preds, y_test)        # Calculating loss
  
  
  ---------------------------------------------------------------

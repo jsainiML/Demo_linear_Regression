@@ -2,7 +2,7 @@
 
 
 torch.manual_seed(99)
-epochs = 210                                        # No of loop for the data 
+epochs = 225                                        # No of loop for the data 
 loss_v = []
 testl_v = []
 epoch_c = []

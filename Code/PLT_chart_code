@@ -32,3 +32,15 @@ plot_predictons(predictions = y_guess)
 ## To check output after training
 
 plot_predictons(predictions = ytest_preds)
+
+------------------------------------------------
+## Slope in loss function. 
+
+plt.plot(epoch_c, loss_v, label = 'Train Loss')
+plt.plot(epoch_c, testl_v, label = 'Test Loss')
+plt.title('T & T curves')
+plt.ylabel('Loss')
+plt.xlabel('Epocs')
+plt.legend();
+
+

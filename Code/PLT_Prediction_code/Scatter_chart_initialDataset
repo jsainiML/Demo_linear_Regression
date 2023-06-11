@@ -16,3 +16,5 @@ def plot_predictons(train_data = X_train,
    plt.scatter(test_data, predictions, c='g', s=4, label="predictions")
 
   plt.legend(prop={'size':14});
+  
+  plot_predictons()

@@ -3,27 +3,27 @@ I wrote this code on Pytorch to show how a NN model trained on small set of tens
 
 ### Linear DataSet 
 
-![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/709c40a3-8790-4bb9-bb3e-938e4f894393)
+![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/aba296fb-924d-40fa-ac6d-226d616d49b6)
 
 ### Model Prediction before Training 
 
 The following image depict how our model was predicting with randomly initialized weights pre-training. 
 
-![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/0ae21de8-71b7-43fa-8f71-8746c2e70a80)
+![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/4766f707-4b50-4717-9e16-4902a4499620)
 
 ### Model Prediction After Training.
 
 As we can see after training the model over numerous epochs model was able to predict well within the expected manner.
 
-![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/949be60c-3b7e-4629-98c1-d502841ea9e4)
+![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/3276cb3f-0a17-4aaf-afa3-db7635b08c4a)
 
 ### Slope in Loss fuction 
 
 The trend for loss fucntion indicates how well it was perfroming after certain loops. 
 
-![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/4896d85b-3ab6-441d-b63c-00f3126873c7)
+![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/efabe774-6200-48f5-b762-d56f9083d4a6)
 
-![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/1a02d82c-626a-4635-bd28-746881d92bf9)
+![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/ab63df3d-b9f0-43a8-b6ea-b940bf00866c)
 
 
 

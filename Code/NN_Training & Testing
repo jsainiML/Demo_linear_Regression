@@ -1,5 +1,9 @@
-# In this section we have trained our model using gradient descent and back propogation with 200+ epochs
+# Prior Training we have to setup loss fuction & optimizer
+lossfn = nn.L1Loss()
+optimizer = torch.optim.SGD(model_0.parameters(), lr=0.01)
 
+
+# In this section we have trained our model using gradient descent and back propogation with 200+ epochs
 
 torch.manual_seed(99)
 epochs = 225                                        # No of loop for the data 
@@ -39,3 +43,4 @@ for epoch in range(epochs):
     loss_v.append(loss.detach().numpy())
     testl_v.append(test_loss.detach().numpy())
     print (f"Epoc: {epoch}, Loss: {loss},  test loss: {test_loss}") 
+    

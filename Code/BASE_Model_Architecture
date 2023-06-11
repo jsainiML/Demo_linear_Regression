@@ -4,12 +4,12 @@
 class lrmodel(nn.Module):
   def __init__(self):
     super().__init__()
-    self.weights = nn.Parameter(torch.rand(1, requires_grad=True))
+    self.weights = nn.Parameter(torch.rand(1, requires_grad=True))   
     self.bias = nn.Parameter(torch.rand(1,requires_grad=True))
     
   # forward method to define computation in model
   def forward(self, x: torch.tensor) -> torch.tensor:  # x is the imput data 
-    return self.weights*x + self.bias  # this is very similar to our previous event of linear regression formula
+    return self.weights*x + self.bias  #  linear regression formula
     
  
  

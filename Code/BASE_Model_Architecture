@@ -8,10 +8,10 @@ class lrmodel(nn.Module):
     self.bias = nn.Parameter(torch.rand(1,requires_grad=True))
     
   # forward method to define computation in model
-  def forward(self, x: torch.tensor) -> torch.tensor:  # x is the imput data 
-    return self.weights*x + self.bias  #  linear regression formula
+  def forward(self, x: torch.tensor) -> torch.tensor:                       # x is the imput data 
+    return self.weights*x + self.bias                                       #  linear regression formula
     
  
  
-torch.manual_seed(99) # creating random seed so that our parameter have some common randomness (easier understanding).
-model_0 = lrmodel() # This is our first instance of the model
+torch.manual_seed(99)                                                       # creating random seed so that our parameter have some common randomness (easier understanding).
+model_0 = lrmodel()                                                         # This is our first instance of the model

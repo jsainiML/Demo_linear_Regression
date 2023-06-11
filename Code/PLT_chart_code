@@ -1,3 +1,4 @@
+## Dataset patern
 
 def plot_predictons(train_data = X_train,
                     train_labels =  y_train,
@@ -18,3 +19,16 @@ def plot_predictons(train_data = X_train,
   plt.legend(prop={'size':14});
   
   plot_predictons()
+
+
+------------------------------------------------
+## To check output before training
+
+with torch.inference_mode():
+ y_guess = model_0(X_test)
+plot_predictons(predictions = y_guess)
+
+------------------------------------------------
+## To check output after training
+
+plot_predictons(predictions = ytest_preds)

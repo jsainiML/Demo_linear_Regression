@@ -1,0 +1,7 @@
+with torch.inference_mode():
+ y_guess = model_0(X_test)
+ 
+plot_predictons(predictions = y_guess)
+
+
+![random 1st](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/3454638b-e904-4d85-b31f-67b6d0bd959b)

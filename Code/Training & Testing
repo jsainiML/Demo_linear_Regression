@@ -11,13 +11,13 @@ epoch_c = []
 for epoch in range(epochs):
   model_0.train()  # puts the model in training mode
 
-  y_prediction = model_0(X_train) # we have inputed the trainning data to our Fw pass predicting Y
+  y_prediction = model_0(X_train) # we have inputed the trainning data to our Fw pass predicting 'y'
 
   loss = lossfn(y_prediction, y_train) # calculating loss brtween predicted - actual 
   
-  optimizer.zero_grad() #Clears the gradient of param
+  optimizer.zero_grad() #Clears the gradient of parameters
 
-  loss.backward() # perfrom Backpropo based on loss observed
+  loss.backward() # perfrom Backpropogation based on loss observed
 
   optimizer.step() # update parameters on computed gradients
 

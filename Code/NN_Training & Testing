@@ -1,5 +1,5 @@
 # Prior Training we have to setup loss fuction & optimizer
-lossfn = nn.L1Loss()
+lossfn = nn.L1Loss()                                               # Loss fuction used is mean absolute error (MAE) 
 optimizer = torch.optim.SGD(model_0.parameters(), lr=0.01)
 
 

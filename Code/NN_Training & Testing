@@ -22,7 +22,7 @@ for epoch in range(epochs):
   
   optimizer.zero_grad()                             # Clears the gradient of parameters
 
-  loss.backward()                                   # Perfrom Backpropogation based on loss observed
+  loss.backward()                                   # Perform Backpropagation based on loss observed
 
   optimizer.step()                                  # Update parameters on computed gradients
 

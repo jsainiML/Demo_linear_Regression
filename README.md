@@ -19,7 +19,7 @@ As we can see after training the model over numerous epochs model was able to pr
 
 ### Slope in Loss fuction 
 
-The trend for loss fucntion indicates how well it was perfroming after certain loops. 
+The trend for loss function indicates how well it was performing after certain loops. 
 
 ![image](https://github.com/jsainiML/Demo_linear_Regression/assets/135480841/efabe774-6200-48f5-b762-d56f9083d4a6)
 

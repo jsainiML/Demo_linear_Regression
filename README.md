@@ -1,5 +1,5 @@
 # Demo_linear_Regression
-I wrote this code on Pytorch to show how a NN model trained on small set of tensors can predict data using linear regression with methods like Backpropogation and gradient descent. 
+I wrote this code on Pytorch that shows how a NN model trained on small set of tensors can predict data using linear regression with methods like Backpropogation and gradient descent. 
 
 ### Linear DataSet 
 

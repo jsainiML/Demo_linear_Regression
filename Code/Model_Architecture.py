@@ -24,7 +24,7 @@ model_0 = lrmodel()                                                         # Lo
 _____________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-Below architecture v.2 is simpler version where we defined parameters using Pytorches 'nn.linear()' module with same endgoal.
+#Below architecture v.2 is simpler version where we defined parameters using Pytorches 'nn.linear()' module with same endgoal.
 
 
 class lrmodel1(nn.Module):
